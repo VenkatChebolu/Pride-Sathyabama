@@ -1,2 +1,2 @@
 # Pride-Sathyabama
-About Given Assignments
+Chebolu Mani Venkat(42117002)
