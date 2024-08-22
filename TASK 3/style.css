@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.logo-search {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #3b6b9f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: linear-gradient(to right, rgb(67, 67, 238), #feb47b);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+.products, .new-arrivals {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 10px;
+    text-align: center;
+    width: 22%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 5px 0;
+}
+.shirt{
+    height: 225px;
+}
+.chair{
+    height : 230px;
+   
+}
+.watch{
+    height : 225px;
+    padding-top: 25px;
+}
+.HP{
+    height: 250px;
+}
